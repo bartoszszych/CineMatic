@@ -38,7 +38,15 @@ pod install
 ```
 
 4. Open the project in Xcode using the newly created `.xcworkspace` file.
-5. Build and run the project on a simulator or a physical device.
+5. In the `Supporting` folder, open the `Constants.swift` file and replace the value of `API_KEY` with your own [API key](https://developers.themoviedb.org/3/getting-started/introduction). 
+
+```swift
+struct Constants {
+    ...
+    static let API_KEY = "YOUR API KEY"
+}
+```
+6. Build and run the project on a simulator or a physical device.
 
 ## Credits
 
